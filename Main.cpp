@@ -89,7 +89,7 @@ void Main()
 
 				messages.clear();
 				messages.push_back(L"左右対称度：");
-				messages.push_back(Format(L"{:.5f}（理想：0）"_fmt, cscore));
+				messages.push_back(Format(L"{:.5f} (理想：0)"_fmt, cscore));
 				messages.push_back(L"縦比率：");
 				messages.push_back(Format(L"{:.5f} (参考黄金比：1.618)"_fmt, rscore));
 
